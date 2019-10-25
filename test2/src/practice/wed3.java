@@ -21,6 +21,8 @@ public class wed3 {
         //The Average is : 3.0
 
         {
+
+            ////testtt
             int i, n = 0, s = 0;
             double avg;
             {
