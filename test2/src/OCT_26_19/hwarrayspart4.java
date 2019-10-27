@@ -15,23 +15,34 @@ public class hwarrayspart4 {
         int[] b = {5, 6, 7,};
 
 
+        boolean same = true;
         for (int i = 0; i < a.length; i++) {
-            if (a[i] == b[i]) {
-                System.out.println("arrays are same");
-            } else {
-                System.out.println("arrays are different");
+            if (a[i] != b[i]) {
+                same = false;
+                break;
             }
+        }
 
-            int[] c = {3, 2, 6};
-            int[] d = {5, 6, 7,};
+        if (same) {
+            System.out.println("arrays are same");
+        } else {
+            System.out.println("arrays are different");
+        }
 
-            for (i = 0; i < a.length; i++) {
-                if (c[i] != d[i]) {
-                    System.out.println("arrays are different");
-                } else {
-                    System.out.println("arrays are different");
-                }
+
+        int[] c = {3, 2, 6};
+        int[] d = {5, 6, 7,};
+        boolean different = true;
+        for (int j = 0; j < a.length; j++) {
+            if (c[j] == d[j]) {
+                different = true;
+                break;
             }
+        }
+        if (different) {
+            System.out.println("arrays are different");
+        } else {
+            System.out.println("arrays are same");
         }
     }
 }
