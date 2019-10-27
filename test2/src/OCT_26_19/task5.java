@@ -1,0 +1,55 @@
+package OCT_26_19;
+
+import java.util.Random;
+
+public class task5 {
+    public static void main(String[] args) {
+        //TODO
+        // Given 2 arrays of ints, a and b,
+        // part1. if they have the same first element print => "have the same first elements"
+        // part2. if they have the same last element print => "have the same last elements"
+        // part3. if they have the same middle element print => "have the same middle elements"
+
+
+        //HINT:
+        //create two arrays, fill it with numbers
+        //check numbers at index 0
+        int[] a = {10, 20, 25, 60, 50, 30};
+        int[] b = {10, 60, 30};
+
+        //part 1
+        if (a[0] == b[0]) {
+            System.out.println("have the same first elements");
+        }
+
+        //part 2
+        int lengthOfA = a.length; //5
+        int lengthOfB = b.length; //3
+        if (a[lengthOfA - 1] == b[lengthOfB - 1]) { // a[5]
+            System.out.println("have the same last elements");
+        }
+
+        //part3
+        System.out.println("Part3------------------------");
+        if (a[lengthOfA / 2] == b[lengthOfB / 2]) {
+            System.out.println("have the same middle elements");
+
+            // part4. check every element, if they are same print => "arrays are same"
+            //ex:
+            // a = {5, 6, 7}
+            // b = {5, 6, 7}
+            // => "arrays are same"
+            //ex2:
+            // a = {3, 2, 6}
+            // b = {5, 6, 7}
+            // => "arrays are different"
+        }
+
+    }
+
+}
+
+
+
+
+
