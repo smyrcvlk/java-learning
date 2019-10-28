@@ -42,6 +42,19 @@ public class day15homework {
         } else {
             System.out.println("there aren't 1 and 2 ");
         }
+
+//        Part 1 :
+//        =====================
+//        Even numbers are : 2
+//        Even numbers are : 4
+//        Even numbers are : 6
+//
+//        Part 2 :
+//        =====================
+//        my array has 1 and 2
+//
+//        Process finished with exit code 0
+
     }
 }
 
