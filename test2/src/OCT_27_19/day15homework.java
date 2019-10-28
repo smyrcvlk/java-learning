@@ -10,16 +10,18 @@ public class day15homework {
         // Hint: if you array has 1 and after that somewhere has 2, is should print "has 1 and 2"
         //
 
-        int[] myArray = {1, 2, 3, 4, 5, 6, 1111};
+        int[] myArray = {1, 2, 3, 4, 5, 6};
         // part 1
+        int count=0;
         System.out.println("Part 1 : ");
         System.out.println("=====================");
         for (int i = 0; i < myArray.length; i++) {
 
             if (myArray[i] % 2 == 0) {
-                System.out.println("Even numbers are : " + myArray[i]);
+                count++;
             }
         }
+        System.out.println("Total even numbers : " + count);
 
         // part 2
         System.out.println("");
@@ -45,9 +47,7 @@ public class day15homework {
 
 //        Part 1 :
 //        =====================
-//        Even numbers are : 2
-//        Even numbers are : 4
-//        Even numbers are : 6
+//        Total even numbers : 3
 //
 //        Part 2 :
 //        =====================
