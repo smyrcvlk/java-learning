@@ -13,7 +13,7 @@ public class task2 {
        String v4= "22";
        int v5 = 50000;
 
-       double average= (Integer.valueOf(v1)) + v2 + v3 + Integer.valueOf(v4);
+       double average= (Integer.valueOf(v1)) + v2 + v3 + Integer.valueOf(v4)/6;
         String v6 = "22.234234";
         Double.valueOf(v6);
 

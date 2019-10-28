@@ -5,13 +5,12 @@ public class forloops3 {
 
         for(int i = Integer.MAX_VALUE;    ; i++){
             System.out.println(i);
-
-//            if(i == 5){
-//                break;
-//            }
+            if(i == 5){
+                break;
+           }
         }
 
-//        System.out.println("End");
+       System.out.println("End");
 
         }
     }

@@ -29,6 +29,7 @@ public class stringlength {
         int lengthb= b.length();
 
         int sum =lenghta +lengthb;
+
         System.out.println("length is "+ sum);
 
 

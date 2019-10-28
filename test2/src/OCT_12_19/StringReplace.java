@@ -1,8 +1,6 @@
 package OCT_12_19;
 
-import com.sun.jdi.connect.Connector;
 
-import java.sql.SQLOutput;
 
 public class StringReplace {
     public static void main(String[] args) {

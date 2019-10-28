@@ -8,7 +8,7 @@ public class BooleanExample {
         System.out.println("true|| true =>" + (truebool||truebool));
         System.out.println("false|| true=>" + (falsebool||truebool));
         System.out.println("true||false=>"  + (truebool||falsebool));
-        //System.out.println("false||false=>" + (falsebool||falsebool));
+        System.out.println("false||false=>" + (falsebool||falsebool));
 
         //logical Or: returns true if at least one condition is true
 

@@ -3,7 +3,7 @@ package OCT_15_19;
 public class casebreak {
     public static void main(String[] args) {
         char stream = 'C';
-        int x = 2;
+        int x = 1;
 
         switch (x) {
             case 1:

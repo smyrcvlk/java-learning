@@ -11,7 +11,7 @@ public class userinporthomework {
         System.out.println("text is:"  + s1);
 
         int i1= scan.nextInt();
-        System.out.println("integer is:" + 1);
+        System.out.println("integer is:" + i1);
 
 
     }

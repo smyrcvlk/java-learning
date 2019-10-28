@@ -2,11 +2,11 @@ package OCT_24_19;
 
 public class arrays {
     public static void main(String[] args) {
-        int[] xyz = {2, 11, 45, 9, 56};
-        int max = xyz[0];
+        int[] xyz = {45,2, 11, 45, 9, 56};
+        int max = xyz[0];//if we write more than 6 it is gonna be runtime error
         int min = xyz[0];
 
-        for(int i=1; i< xyz.length; i++)
+        for(int i=0; i< xyz.length; i++)
         {
             if(xyz[i] > max)
                 max = xyz[i];

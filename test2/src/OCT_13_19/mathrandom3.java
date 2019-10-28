@@ -5,7 +5,7 @@ public class mathrandom3 {
 
         //int randomInRange = min + (int) (Math.random() * ((max - min) + 1));
 
-            int min = 10;
+            int min = 15;
             int max = 15;
             int range = max - min;
 
