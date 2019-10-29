@@ -30,32 +30,38 @@ public class multidimentionaltask1 {
 
 
         System.out.println("part3---------------------------");
-        System.out.println("columns at row 0: " + arr[0].length);
+//        System.out.println("columns at row 0: " + arr[0].length);
         //part3
         //USING ONLY ONE LOOP print names and surnames
         //ex:
         //Bayram Guney
         //Micheal Jackson
 
-        for (int i = 0; i < arr[0].length; i++) {
-            System.out.println(arr[0][i] + " " + arr[1][i]);
 
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.println(arr[0][j] + "  " + arr[1][j]);
 
-//        for (int i = 0; i < arr[0].length; i++) {
-//            for (int j = 0; j < arr[1].length; j++) {
-//                System.out.println(arr [0].length +  arr[1].length );
-//            }
-//        }
+            }
+            System.out.println();
 
 
         }
-        System.out.println("part 4=========================");
+//        System.out.println("part 4=========================");
+//        //// Return the number of even ints in the given array.
+//        String[][] names = {{"Edgar Allan", "Franz", "Virginia"}, {"Poe", "Kafka", "Woolf"}};
+//        for (int i = 0; i < names.length; i++) {
+//            for (int j = 0; j < names[i].length; j++) {
+//                // 00 - 10, 01 - 11, 02 - 12
+//                System.out.println(names[0][j] + " " + names[1][j]);
+//            }
+//            System.out.println();
+//            break;
+//        }
 
     }
+
 }
-
-
-
 
 
 

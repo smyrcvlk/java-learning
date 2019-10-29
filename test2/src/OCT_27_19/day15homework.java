@@ -55,6 +55,21 @@ public class day15homework {
 //
 //        Process finished with exit code 0
 
+        int[] intArray = {1, 2, 3, 4, 5, 6};
+
+        int evenCounter = 0;
+        for (int i = 0; i < intArray.length; i++) {
+            int currentNumber = intArray[i];
+            boolean numberIsEven = currentNumber % 2 == 0;
+
+            if (numberIsEven) {
+                evenCounter++;
+            }
+        }
+
+        System.out.println("you have " + evenCounter + " even numbers");
+
+
     }
 }
 
