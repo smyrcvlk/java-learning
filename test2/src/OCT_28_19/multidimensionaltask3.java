@@ -113,9 +113,9 @@ public class multidimensionaltask3 {
 
         System.out.println();
 
-        for (int sumeyra = 0; sumeyra <= 2; sumeyra++) {
-            for (int civelek = 1; civelek >= 0; civelek--) {
-                System.out.print(array[civelek][sumeyra] + " ");
+        for (int loop1 = 0; loop1 <= 2; loop1++) {
+            for (int loop2 = 1; loop2 >= 0; loop2--) {
+                System.out.print(array[loop2][loop1] + " ");
             }
             System.out.println();
         }
