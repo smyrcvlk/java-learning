@@ -56,22 +56,15 @@ public class hashsettask7 {
         else
             System.out.println("no duplications");
 
-
-//        if(mySet.equals(4))
-//            System.out.println("has duplication");
-//        for (Integer obj:mySet) {
-//            if (mySet.contains(obj)) {
-//                mySet.add(obj);
-//                System.out.println("It has dups");
+//        System.out.println("2. way");
+//        HashSet<Integer> mySet = new HashSet<>();
+//        for (Integer number : list) {
+//            if(mySet.contains(number)){
+//                System.out.println("Set already has this number: " + number);
 //                break;
-//            }
-//        }
+//            }else {
+//                mySet.add(number);
 
-//        HashSet<Integer> mySet2 = new HashSet<>();
-//
-//        mySet2.add(1);
-//        mySet2.add(2);
-//        mySet2.add(3);
-//        mySet2.add(4);
+
     }
 }
