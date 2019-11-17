@@ -16,9 +16,9 @@ public class methods {
 
     }
 
-   // public static double smallest(double x, double y, double z)
-   // {
-   //     return Math.min(Math.min(x, y), z);
-    //}
-  //  }
+    public static double smallest(double x, double y, double z)
+    {
+        return Math.min(Math.min(x, y), z);
+    }
+
 }
